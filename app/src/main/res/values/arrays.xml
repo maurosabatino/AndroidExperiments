@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_tabs" >
+        <item>Chi Siamo</item>
+        <item>Le case</item>
+        <item>Teatro</item>
+        <item>Mattoni</item>
+        <item>Eventi</item>
+        <item>Sostienici</item>
+    </string-array>
+</resources>
