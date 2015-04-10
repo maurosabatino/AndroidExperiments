@@ -10,6 +10,10 @@ import android.view.ViewGroup;
 
 import eu.maurosabatino.androidexperiments.R;
 import eu.maurosabatino.androidexperiments.fragments.NavigationDrawerFragments;
+import it.gmariotti.cardslib.library.internal.Card;
+import it.gmariotti.cardslib.library.internal.CardHeader;
+import it.gmariotti.cardslib.library.internal.CardThumbnail;
+import it.gmariotti.cardslib.library.view.CardViewNative;
 
 public class Case extends ActionBarActivity {
     private Toolbar toolbar;
@@ -19,10 +23,31 @@ public class Case extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-
+        setContentView(R.layout.activity_case);
         setupDrawer();
+        //Create a Card
+        Card card = new Card(this);
+
+        //Create a CardHeader
+        CardHeader header = new CardHeader(this);
+
+        //Add header to card
+        card.addCardHeader(header);
+        header.setTitle("VIA ALIMONDA");
+        card.setTitle("Via Cardinale Gaetano Alimonda 9");
+        CardThumbnail thumb = new CardThumbnail(this);
+
+        thumb.setDrawableResource(R.drawable.ic_action);
+
+        card.addCardThumbnail(thumb);
+
+// Add Header to card
+        card.addCardHeader(header);
+        CardViewNative cardView = (CardViewNative) this.findViewById(R.id.carddemo);
+
+        cardView.setCard(card);
+
+
 
     }
 
@@ -31,6 +56,8 @@ public class Case extends ActionBarActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_case, menu);
+
+
         return true;
     }
 
