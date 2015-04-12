@@ -10,6 +10,10 @@ env:
   components:
     - build-tools-22.0.1
     -sys-img-armeabi-v7a-android-22
+    - extra-google-m2repository
+    - extra-android-m2repository
+    - android-16
+    - sysimg-16
 
   licences:
     - android-sdk-license-bcbbd656
