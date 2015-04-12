@@ -1,1 +1,1 @@
-include ':app', ':lib', ':acceptance', ':GiglioOnlus'
+include ':GiglioOnlus', ':GiglioOnlusAcceptance', ':GiglioOnlusLib'

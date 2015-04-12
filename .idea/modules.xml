@@ -4,9 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidExperiments.iml" filepath="$PROJECT_DIR$/AndroidExperiments.iml" />
       <module fileurl="file://$PROJECT_DIR$/GiglioOnlus/GiglioOnlus.iml" filepath="$PROJECT_DIR$/GiglioOnlus/GiglioOnlus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GiglioOnlusAcceptance/acceptance.iml" filepath="$PROJECT_DIR$/GiglioOnlusAcceptance/acceptance.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GiglioOnlus/app.iml" filepath="$PROJECT_DIR$/GiglioOnlus/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/GiglioOnlusLib/lib.iml" filepath="$PROJECT_DIR$/GiglioOnlusLib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GiglioOnlusAcceptance/GiglioOnlusAcceptance.iml" filepath="$PROJECT_DIR$/GiglioOnlusAcceptance/GiglioOnlusAcceptance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GiglioOnlusLib/GiglioOnlusLib.iml" filepath="$PROJECT_DIR$/GiglioOnlusLib/GiglioOnlusLib.iml" />
     </modules>
   </component>
 </project>
